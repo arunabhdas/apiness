@@ -17,3 +17,6 @@ data class Post {
 		val title: String,
 		val content: String
 }
+
+@Repository
+interface PostRepository: JpaRepository<Post, Long>
