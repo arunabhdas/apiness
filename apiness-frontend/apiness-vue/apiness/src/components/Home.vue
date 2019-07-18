@@ -19,8 +19,6 @@
           </a>
       </div>
   </div>
-</div>
-
 
 </template>
 
@@ -32,7 +30,12 @@ export default {
   },
   data: function() {
       return {
-          posts: ['post1', 'post2']
+          posts: this.getPosts()
+      }
+  }, 
+  methods: {
+      getPosts: function() {
+          return ['post1', 'post2'];
       }
   }
 };
