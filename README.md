@@ -6,4 +6,5 @@
 ## Steps
 
 
-==> python app.py 
+cd apiness-backend
+
