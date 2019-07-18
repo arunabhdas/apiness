@@ -5,11 +5,11 @@
       "nativeLanguage": "en"
     },
     "jhipsterVersion": "6.1.2",
-    "applicationType": "microservice",
+    "applicationType": "monolith",
     "baseName": "apiness",
     "packageName": "com.apiness.apiness",
     "packageFolder": "com/apiness/apiness",
-    "serverPort": "8081",
+    "serverPort": "8080",
     "authenticationType": "jwt",
     "cacheProvider": "no",
     "websocket": false,
@@ -19,25 +19,21 @@
     "searchEngine": false,
     "messageBroker": false,
     "serviceDiscoveryType": false,
-    "buildTool": "maven",
+    "buildTool": "gradle",
     "enableSwaggerCodegen": true,
-    "jwtSecretKey": "ZjY1YzhkYzUwYjdiOWEzNDEzYzg5YmI2NDY2ZGY3ZjM0YTkyZmU5YTM4YjAxNGYzOTBkMzY1ZTQ5NmRjNmJlOWMzNjhjN2U4MDJkZmNiMzk3Y2FlYzA1ZGYwMTJiOWQ1ZmUzNTNmNjM3ZjUzZGMzOGEwZTVhZWUyOWQ2NzEyNzM=",
-    "testFrameworks": [
-      "gatling",
-      "cucumber"
-    ],
+    "jwtSecretKey": "ZDU4NjM5OWY2MDFjN2JhMjIwNjBiMzYxMzhmOGMyNjQ0MzBjZTMzZDJlNTNiNjRjZDEwMjgxNmQyNGVkYjk0Y2MyOTE2YWMyNzYyNjNlZTYzOTg0OTVkMGZhMGIwYzk4NTUwOGM3OTFmZjIyODU0ODM5ODIwODNhN2ZjOGJhODc=",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "testFrameworks": ["gatling"],
     "jhiPrefix": "jhi",
     "entitySuffix": "",
     "dtoSuffix": "DTO",
     "otherModules": [],
     "enableTranslation": true,
-    "clientPackageManager": "npm",
     "nativeLanguage": "en",
-    "languages": [
-      "en",
-      "fr"
-    ],
-    "skipClient": true,
-    "skipUserManagement": true
+    "languages": ["en", "fr"]
   }
 }

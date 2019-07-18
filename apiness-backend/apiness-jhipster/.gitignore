@@ -1,7 +1,8 @@
 ######################
 # Project Specific
 ######################
-/target/classes/static/**
+/src/main/webapp/content/css/main.css
+/build/resources/main/static/**
 /src/test/javascript/coverage/
 
 ######################
