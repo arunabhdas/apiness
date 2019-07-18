@@ -20,3 +20,11 @@ data class Post {
 
 @Repository
 interface PostRepository: JpaRepository<Post, Long>
+
+
+@Component
+class PostCommandLineRunner(val repository: PostRepository): PostCommandLineRunner {
+	override fun run(vararg args: String?) {
+		// TODO : not implemented
+	}
+}
