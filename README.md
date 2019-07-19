@@ -1,5 +1,4 @@
 # apiness
-# apiness
 
 
 
@@ -57,6 +56,17 @@ Installing languages: en, fr
 
 
 ## Import JDL as follows
+
 ~~~
 ==> jhipster import-jdl ./apiness_01.jh 
 ~~~
+
+
+# Running 
+
+~~~
+==> cd apiness-backend/apiness
+
+==> ./mvnw
+~~~
+
