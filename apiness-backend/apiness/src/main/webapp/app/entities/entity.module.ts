@@ -4,6 +4,22 @@ import { RouterModule } from '@angular/router';
 @NgModule({
   imports: [
     RouterModule.forChild([
+      {
+        path: 'product',
+        loadChildren: './product/product.module#ApinessProductModule'
+      },
+      {
+        path: 'product-category',
+        loadChildren: './product-category/product-category.module#ApinessProductCategoryModule'
+      },
+      {
+        path: 'product-order',
+        loadChildren: './product-order/product-order.module#ApinessProductOrderModule'
+      },
+      {
+        path: 'order-item',
+        loadChildren: './order-item/order-item.module#ApinessOrderItemModule'
+      }
       /* jhipster-needle-add-entity-route - JHipster will add entity modules routes here */
     ])
   ],

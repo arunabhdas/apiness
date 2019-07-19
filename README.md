@@ -15,7 +15,7 @@ cd apiness-frontend/apiness-vue
 
 yarn global add @vue/cli
 
-
+~~~
 ==> npx jhipster 
 INFO! Using JHipster version installed globally
 INFO! Running default command
@@ -42,7 +42,7 @@ Application files will be generated in folder: /Users/anonymous/repos/ad/githubr
 ? Which *production* database would you like to use? MySQL
 ? Which *development* database would you like to use? MySQL
 ? Do you want to use the Spring cache abstraction? No - Warning, when using an SQL database, this will disable the Hibernate 2nd level cache!
-? Would you like to use Maven or Gradle for building the backend? Gradle
+? Would you like to use Maven or Gradle for building the backend? Maven
 ? Which other technologies would you like to use? API first development using OpenAPI-generator
 ? Which *Framework* would you like to use for the client? Angular
 ? Would you like to use a Bootswatch theme (https://bootswatch.com/)? Default JHipster
@@ -53,3 +53,10 @@ Application files will be generated in folder: /Users/anonymous/repos/ad/githubr
 ? Would you like to install other generators from the JHipster Marketplace? No
 
 Installing languages: en, fr
+~~~
+
+
+## Import JDL as follows
+~~~
+==> jhipster import-jdl ./apiness_01.jh 
+~~~
